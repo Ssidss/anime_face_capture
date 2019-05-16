@@ -2,6 +2,6 @@
 capture face from video
 
 use
-    python <filename>
+    python filename
 to start capture 
 result will in outimage dir
