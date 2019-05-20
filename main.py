@@ -48,7 +48,7 @@ def main(videoname) :
             break
         # show a frame
         #cv2.imshow("capture", frame)
-        cc = c/2000
+        cc = c//3000
         if  not os.path.exists('./image/'+str(cc)):#如果路径不存在
             os.makedirs('./image/'+str(cc))
             maxdir = cc
